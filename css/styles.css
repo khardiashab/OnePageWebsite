@@ -1,0 +1,135 @@
+html{
+    margin : 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    
+    width: 100%;
+    height: 100vh;
+    /* border: 2px solid red; */
+
+    /* background-color: rgb(243, 237, 178); */
+    font-family: cursive;
+    color: #222;
+}
+body header{
+    margin: 0 auto;
+    font-size: 30px;
+}
+body .profile{
+    width: 100%;
+    /* height: 300px; */
+    /* border: 2px solid red; */
+    text-align: center;
+    padding-top: 50px;
+    /* margin: 0 10%; */
+}
+
+body .profile p{
+    color:rgba(4, 71, 70, 0.807)
+    
+}
+body .profile img{
+color: #222;
+    border-radius: 50%;
+    width: 300px;
+    height: 250px;
+    max-width: 100%;
+    max-height: 100%;
+}
+body .profile h3{
+    font-size: 50px;
+    position: relative;
+    bottom: 10px;
+    margin: 0;
+}
+h3{
+    color:rgba(104, 2, 84, 0.769)
+}
+body .profile p{
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+
+    text-transform: capitalize;
+}
+em{
+    color:rgb(4, 38, 90);
+    font-weight: bold;}
+.top{
+    width: 75%;
+    height: 1px;
+    border: dashed;
+}
+body .details{
+    margin: 0 13% 30px;
+    font-size: 25px;
+}
+body .details .data{
+    margin: 10px 0 0 0;
+}
+span img{
+    padding-top: 2px;
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;    
+}
+
+.award-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+.award-content{
+    width: 350px;
+    height: 400px;
+    margin:0 10px;
+    text-align: center;
+}
+.awards img{
+    width: 310px;
+    height: 300px;
+    border-radius: 5px;
+    
+}
+.details{
+    margin-bottom: 20px;
+}
+.book-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.Books img{
+    width: 250px;
+    height: 300px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.book-content{
+    width:250px;
+    height: 400px;
+    margin: 0 10px;
+    text-align: center;
+}
+
+/* .book-name a{border: 2px solid;
+
+} */
+.down{
+    width: 100%;
+    margin: 10px 0;
+    color: rgb(164, 184, 110);
+    size: 1px;
+    padding-top: 20px;
+}
+.bottom-container{
+    font-size: 1.5rem;
+    text-align: center;
+    padding-bottom: 20px;
+}
